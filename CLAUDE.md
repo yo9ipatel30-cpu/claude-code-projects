@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 At the end of every session, update this file to reflect any new projects, structural changes, or decisions made during that session. Do this before the final commit.
 
+A Stop hook in `.claude/settings.json` fires an automatic reminder at the end of every session to do this. The `.claude/` directory is gitignored and lives only on this machine.
+
 ---
 
 ## Repository structure
